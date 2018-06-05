@@ -1,0 +1,38 @@
+body {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+header, div.content, footer{
+    margin: 0 32px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header ul li a {
+    padding: 0 8px;
+}
+
+url.navigation {
+    display: flex;
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+div.content {
+    background: aquamarine;
+    margin-bottom: 60px;
+}
